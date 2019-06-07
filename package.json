@@ -1,0 +1,44 @@
+{
+  "name": "timeline-lite",
+  "version": "1.1.0",
+  "description": "Lightweight timeline display library.",
+  "main": "build/index.min.js",
+  "scripts": {
+    "install": "webpack",
+    "dev": "webpack-dev-server --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/ahwitz/timeline-lite.git"
+  },
+  "author": "Andrew Horwitz",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.1.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "browserslist": "^4.6.1",
+    "css-loader": "^1.0.0",
+    "node-sass": "^4.9.3",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.1",
+    "webpack": "^4.10.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "browserslist": [
+    "ie >= 11",
+    "ie_mob >= 11",
+    "ff >= 30",
+    "chrome >= 21",
+    "safari >= 8",
+    "opera >= 23",
+    "ios >= 8",
+    "android >= 4.4",
+    "bb >= 10"
+  ]
+}
